@@ -1,0 +1,6 @@
+[submodule "MachineLearningService"]
+	path = MachineLearningService
+	url = https://github.com/Code-Nine-FTC/MachineLearningService
+[submodule "ManagementService"]
+	path = ManagementService
+	url = https://github.com/Code-Nine-FTC/ManagementService
