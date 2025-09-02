@@ -4,3 +4,6 @@
 [submodule "ManagementService"]
 	path = ManagementService
 	url = https://github.com/Code-Nine-FTC/ManagementService
+[submodule "MobileInterface"]
+	path = MobileInterface
+	url = https://github.com/Code-Nine-FTC/MobileInterface-2025.2
