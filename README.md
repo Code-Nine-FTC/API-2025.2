@@ -107,8 +107,25 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 --- 
 
-## 📆 Backlog da Sprint
-> Em desenvolvimento.
+## 📆 Backlog da Sprint 1
+
+| **Capacidade estimada da equipe por sprint**                   | 36 Story Points                                                  |
+|:-------------------------------------------------------------:|:----------------------------------------------------------------:|
+| **Meta da Sprint**                                            | User Stories de Rank 1, 2, 3, 4 (Total: 26 Story Points)         |
+| **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 5 e 6 (Total: 10 Story Points)              |
+
+
+<br>
+
+| **Rank** | **Prioridade** | **User Story**                                                                                                                                                                                                                                         | **Estimativa** | **Sprint** |
+|----------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
+| 1        | Alta           | Como usuário do almoxarifado, quero cadastrar novos itens com nome, ficha, grupo, estoque mínimo, unidade, gerar QR code, escanear para adicionar novas quantidades e visualizar todos os itens com número da ficha, grupo e quantidade atual.         | 8              | 1          |
+| 2       | Alta           | Como gestor, quero gerenciar os pedidos de materiais: cadastrar novos pedidos feitos pelas sessões, visualizar os pedidos em aberto, marcar como retirados com data de retirada, e visualizar o histórico de pedidos por sessão para entender o padrão de consumo. | 8              | 1          |
+| 3        | Alta           | Como usuário, quero fazer login com e-mail e senha para acessar o sistema de acordo com meu perfil e acessar os módulos permitidos (almoxarifado, farmácia, etc.), com controle segmentado por unidade ou estoque.                                   | 5              | 1          |
+| 4        | Alta           | Como administrador, quero cadastrar usuários com diferentes perfis (almoxarifado, farmácia, auxiliar), vinculá-los a unidades/estoques específicos, e garantir que tenham acesso somente ao que for permitido.                                     | 5              | 1          |
+| 5        | Alta           | Como gestor, quero registrar perdas ou danos em materiais, editar ou excluir cadastros de itens ou pedidos com erros, e arquivar itens descontinuados ou fora de uso para manter o estoque atualizado e limpo.                                     | 5              | 1          |
+| 6        | Alta           | Como gestor, quero visualizar os itens abaixo ou próximos do estoque mínimo, ver os materiais mais requisitados por frequência e acompanhar a demanda por meio de gráficos de coluna por grupo de materiais.                                       | 5              | 1          |
+
 
 ---
 
