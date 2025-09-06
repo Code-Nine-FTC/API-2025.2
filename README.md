@@ -81,11 +81,29 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | RNF04 | **Manual de Instalação:** Documentação passo-a-passo para configurar ambiente de desenvolvimento e produção (docs/manual-de-instalacao.md). |
 | RNF05 | **Manual do Usuário:** Guia de funcionalidades e fluxos do usuário (docs/manual-do-usuario.md).                                             |
 | RNF06 | **Compatibilidade:** O aplicativo móvel deve ser compatível com as duas últimas versões dos sistemas operacionais Android e iOS.            |
+| RNF07 | **Engenharia do Sistema:** O projeto deve seguir boas práticas de engenharia de software, garantindo modularidade, manutenibilidade e escalabilidade. |
 
 ---
 
 ## 📒 Product Backlog
-> Em desenvolvimento.
+| **Rank** | **Prioridade** | **User Story**                                                                                                                                                                                                                                         | **Estimativa** | **Sprint** |
+|----------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
+| 1        | Alta           | Como usuário do almoxarifado, quero cadastrar novos itens com nome, ficha, grupo, estoque mínimo, unidade, gerar QR code, escanear para adicionar novas quantidades e visualizar todos os itens com número da ficha, grupo e quantidade atual.         | 8              | 1          |
+| 2        | Alta           | Como gestor, quero gerenciar os pedidos de materiais: cadastrar novos pedidos feitos pelas sessões, visualizar os pedidos em aberto, marcar como retirados com data de retirada, e visualizar o histórico de pedidos por sessão para entender o padrão de consumo. | 8              | 1          |
+| 3        | Alta           | Como usuário, quero fazer login com e-mail e senha para acessar o sistema de acordo com meu perfil e acessar os módulos permitidos (almoxarifado, farmácia, etc.), com controle segmentado por unidade ou estoque.                                   | 5              | 1          |
+| 4        | Alta           | Como administrador, quero cadastrar usuários com diferentes perfis (almoxarifado, farmácia, auxiliar), vinculá-los a unidades/estoques específicos, e garantir que tenham acesso somente ao que for permitido.                                     | 5              | 1          |
+| 5        | Alta           | Como gestor, quero registrar perdas ou danos em materiais, editar ou excluir cadastros de itens ou pedidos com erros, e arquivar itens descontinuados ou fora de uso para manter o estoque atualizado e limpo.                                     | 5              | 1          |
+| 6        | Alta           | Como gestor, quero visualizar os itens abaixo ou próximos do estoque mínimo, ver os materiais mais requisitados por frequência e acompanhar a demanda por meio de gráficos de coluna por grupo de materiais.                                       | 5              | 1          |
+| 7        | Alta           | Como gestor, quero cadastrar fornecedores com nome, CNPJ, e-mail e número de empenho, visualizar a lista de fornecedores com status de entrega e e-mails enviados, e disparar e-mails automáticos para evitar atrasos.                             | 8              | 2          |
+| 8        | Alta           | Como gestor, quero gerar relatórios de estoque em PDF ou Excel, incluindo os status de estoques (itens em falta, vencimentos, pedidos em aberto), para conferência com o sistema oficial.                                                          | 5              | 2          |
+| 9       | Média          | Como administrador/gestor, quero visualizar um dashboard com os principais indicadores: itens em falta, vencimentos, pedidos em aberto, consumo por sessão, e alertas de estoque mínimo.                                                             | 5              | 2          |
+| 10        | Média          | Como usuário, quero adicionar itens doados manualmente sem fornecedor e registrar a data de entrada de cada lote para controle e rastreabilidade completa.                                                                                           | 3              | 2          |
+| 11       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade e visualizar os medicamentos vencidos ou próximos do vencimento.                                                                                                          | 2              | 2          |
+| 12       | Média          | Como sistema, quero registrar logs de ações realizadas (quem cadastrou, editou ou removeu pedidos/itens) para fins de auditoria e rastreabilidade.                                                                                                   | 5              | 3          |
+| 13       | Média          | Como usuário, quero filtrar e listar os itens por grupo (limpeza, higiene, etc.) para facilitar a navegação no estoque.                                                                                                                              | 3              | 3          |
+| 14       | Média          | Como farmácia, quero um campo de chat para comunicação com pacientes sobre agendamento e dúvidas.                                                                                                                                                    | 8              | 3          |
+| 15       | Baixa          | Como usuário, quero receber notificações internas (sem e-mail) sobre pedidos pendentes, materiais vencendo ou próximos do mínimo, para facilitar o acompanhamento.                                                                                   | 3              | 3          |
+| 16       | Baixa          | Como gestor, quero arquivar itens fora de uso ou descontinuados para não poluir visualizações do estoque ativo.                                                                                                                                      | 1              | 3          |
 
 --- 
 
@@ -106,33 +124,20 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 
 ---
 
-## 🚀 Como Começar
-
-Para configurar o ambiente de desenvolvimento local, siga os passos abaixo.
-
----
-
-## 📖 Manual do Usuário
-1. O usuário deve se autenticar com login e senha.  
-2. Gestores podem cadastrar itens e gerar relatórios.  
-3. Operadores podem registrar entradas e saídas.  
-4. O app permite consultar itens via **QR Code**.  
-5. Notificações são enviadas quando estoque atinge o mínimo.  
-
 ### Pré-requisitos
 
 Instale/configure localmente antes de iniciar:
 
 | Componente | Versão / Observação | Verificação rápida |
 |------------|---------------------|--------------------|
-| Git | Última versão estável | git --version |
-| Node.js + npm | LTS (ex: 20.x) | node -v / npm -v |
-| PostgreSQL | 15+ (ou usar Docker) | psql --version |
-| Flutter SDK | Versão estável atual | flutter --version |
-| Dart (incluso no Flutter) | Bundled | dart --version |
-| Java JDK | 17 (necessário para build Android) | java -version |
-| Android Studio (SDK / AVD) | Atual | flutter doctor |
-| VS Code (ou IDE preferida) | Extensões: Flutter, Dart | code -v |
+| Git | 2.46+ (ou última estável) | git --version |
+| Node.js + npm | 22.x (LTS) | node -v / npm -v |
+| PostgreSQL | 16+ (ou usar Docker) | psql --version |
+| Flutter SDK | 3.23+ (ou última estável) | flutter --version |
+| Dart (incluso no Flutter) | 3.5+ (Bundled) | dart --version |
+| Java JDK | 21+ (necessário para build Android) | java -version |
+| Android Studio (SDK / AVD) | "Koala" (ou última estável) | flutter doctor |
+| VS Code (ou IDE preferida) | 1.93+ (ou última estável) | code -v |
 
 
 ## 📂 Estrutura do Projeto
