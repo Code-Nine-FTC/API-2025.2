@@ -26,9 +26,8 @@
 - [Backlog da Sprint](#-backlog-da-sprint)
 - [DoR (Definition of Ready)](docs/dor.md)
 - [DoD (Definition of Done)](docs/dod.md)
-- [Manual de Instalação](docs/manual-de-instalacao.md)
-- [Manual do Usuário](docs/manual-do-usuario.md)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Modelo de Dados](#-modelo-de-dados)
 - [Estratégia de Branching](docs/estrategia-de-branch.md)
 - [Padrão de Commit](docs/padrao-de-commits.md)
 - [Integrantes do Grupo](#-integrantes-do-grupo)
@@ -37,7 +36,7 @@
 
 ## 📋 Metodologia Utilizada
 
-O framework de Metodologia Ágil utilizado no produto foi o **Scrum**, um método adaptativo, iterativo e eficaz para a gestão de projetos. O trabalho é organizado em Sprints, com cerimônias como Planejamento (Planning), Execuções Diárias (Dailies) e Revisões (Review) para garantir entregas de valor contínuas e alinhadas às necessidades do cliente.
+O framework de Metodologia Ágil utilizado no produto foi o **Scrum**, um método adaptativo, iterativo e eficaz para a gestão de projetos. O trabalho é organizado em Sprints, com cerimônias como Planejamento (Planning), Reuniões Diárias (Dailies) e Revisões (Review) para garantir entregas de valor contínuas e alinhadas às necessidades do cliente.
 
 ---
 
@@ -86,6 +85,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 ---
 
 ## 📒 Product Backlog
+
 | **Rank** | **Prioridade** | **User Story**                                                                                                                                                                                                                                         | **Estimativa** | **Sprint** |
 |----------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
 | 1        | Alta           | Como usuário do almoxarifado, quero cadastrar novos itens com nome, ficha, grupo, estoque mínimo, unidade, gerar QR code, escanear para adicionar novas quantidades e visualizar todos os itens com número da ficha, grupo e quantidade atual.         | 8              | 1          |
@@ -107,13 +107,12 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 --- 
 
-## 📆 Backlog da Sprint 1
+## 📆 Backlog da Sprint
 
 | **Capacidade estimada da equipe por sprint**                   | 36 Story Points                                                  |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
 | **Meta da Sprint**                                            | User Stories de Rank 1, 2, 3, 4 (Total: 26 Story Points)         |
 | **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 5 e 6 (Total: 10 Story Points)              |
-
 
 <br>
 
@@ -141,27 +140,17 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 
 ---
 
-### Pré-requisitos
-
-Instale/configure localmente antes de iniciar:
-
-| Componente | Versão / Observação | Verificação rápida |
-|------------|---------------------|--------------------|
-| Git | 2.46+ (ou última estável) | git --version |
-| Node.js + npm | 22.x (LTS) | node -v / npm -v |
-| PostgreSQL | 16+ (ou usar Docker) | psql --version |
-| Flutter SDK | 3.23+ (ou última estável) | flutter --version |
-| Dart (incluso no Flutter) | 3.5+ (Bundled) | dart --version |
-| Java JDK | 21+ (necessário para build Android) | java -version |
-| Android Studio (SDK / AVD) | "Koala" (ou última estável) | flutter doctor |
-| VS Code (ou IDE preferida) | 1.93+ (ou última estável) | code -v |
-
-
 ## 📂 Estrutura do Projeto
 
 > Em desenvolvimento.
 
 ---
+
+## 🗄️ Modelo de Dados
+
+Modelo inicial (Entidades, atributos e relacionamentos).
+
+![Modelo de Dados](docs/diagrams/modelo-dados.jpg)
 
 ## 🙎 Integrantes do Grupo
 
@@ -179,7 +168,6 @@ Instale/configure localmente antes de iniciar:
 | <img src="https://avatars.githubusercontent.com/u/79583088?v=4"  alt="foto de perfil" height="64px" width="64px"> | Yuri Braga | Developer | <a href="https://github.com/yuribragga"><img src="https://img.shields.io/badge/GitHub-13196a?style=for-the-badge&logo=github&logoColor=white"></a> | <a href="https://www.linkedin.com/in/yuri-braga/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> |
 
 </div>
-
 
 ---
 
