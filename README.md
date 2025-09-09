@@ -116,14 +116,30 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 <br>
 
-| **Rank** | **Prioridade** | **User Story**                                                                                                                                                                                                                                         | **Estimativa** | **Sprint** |
-|----------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------|
-| 1        | Alta           | Como usuário do almoxarifado, quero cadastrar novos itens com nome, ficha, grupo, estoque mínimo, unidade, gerar QR code, escanear para adicionar novas quantidades e visualizar todos os itens com número da ficha, grupo e quantidade atual.         | 8              | 1          |
-| 2       | Alta           | Como gestor, quero gerenciar os pedidos de materiais: cadastrar novos pedidos feitos pelas sessões, visualizar os pedidos em aberto, marcar como retirados com data de retirada, e visualizar o histórico de pedidos por sessão para entender o padrão de consumo. | 8              | 1          |
-| 3        | Alta           | Como usuário, quero fazer login com e-mail e senha para acessar o sistema de acordo com meu perfil e acessar os módulos permitidos (almoxarifado, farmácia, etc.), com controle segmentado por unidade ou estoque.                                   | 5              | 1          |
-| 4        | Alta           | Como administrador, quero cadastrar usuários com diferentes perfis (almoxarifado, farmácia, auxiliar), vinculá-los a unidades/estoques específicos, e garantir que tenham acesso somente ao que for permitido.                                     | 5              | 1          |
-| 5        | Alta           | Como gestor, quero registrar perdas ou danos em materiais, editar ou excluir cadastros de itens ou pedidos com erros, e arquivar itens descontinuados ou fora de uso para manter o estoque atualizado e limpo.                                     | 5              | 1          |
-| 6        | Alta           | Como gestor, quero visualizar os itens abaixo ou próximos do estoque mínimo, ver os materiais mais requisitados por frequência e acompanhar a demanda por meio de gráficos de coluna por grupo de materiais.                                       | 5              | 1          |
+| **Rank** | **Prioridade** | **User Story**                                                                                                 | **Estimativa** | **Sprint** |
+| -------- | -------------- | -------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
+| 1.1      | Alta           | Como usuário, quero cadastrar novos itens com nome, ficha, grupo, estoque mínimo e unidade.                    | 5              | 1          |
+| 1.2      | Alta           | Como usuário, quero gerar um QR code único para cada item cadastrado.                                          | 8              | 1          |
+| 1.3      | Alta           | Como usuário, quero escanear o QR code de um item para adicionar novas quantidades ao estoque.                 | 8              | 1          |
+| 1.4      | Alta           | Como usuário, quero visualizar todos os itens cadastrados com número da ficha, grupo e quantidade atual.       | 5              | 1          |
+| 2.1      | Alta           | Como gestor, quero cadastrar pedidos de materiais feitos pelas sessões/unidades.                               | 5              | 1          |
+| 2.2      | Alta           | Como gestor, quero visualizar todos os pedidos em aberto com status e informações básicas.                     | 5              | 1          |
+| 2.3      | Alta           | Como gestor, quero marcar pedidos como retirados e registrar a data de retirada.                               | 3              | 1          |
+| 2.4      | Alta           | Como gestor, quero visualizar o histórico de pedidos por sessão para entender o padrão de consumo.             | 8              | 1          |
+| 3.1      | Alta           | Como usuário, quero fazer login no sistema usando e-mail e senha.                                              | 5              | 1          |
+| 3.2      | Alta           | Como usuário, quero acessar apenas os módulos permitidos conforme meu perfil (ex: almoxarifado, farmácia etc.) | 5              | 1          |
+| 3.3      | Alta           | Como usuário, quero que meu acesso seja segmentado pela unidade ou estoque que pertenço.                       | 5              | 1          |
+| 4.1      | Alta           | Como administrador, quero cadastrar novos usuários no sistema.                                                 | 5              | 1          |
+| 4.2      | Alta           | Como administrador, quero atribuir perfis aos usuários (almoxarifado, farmácia, auxiliar, etc.).               | 5              | 1          |
+| 4.3      | Alta           | Como administrador, quero vincular usuários a unidades ou estoques específicos.                                | 5              | 1          |
+| 4.4      | Alta           | Como administrador, quero garantir que cada usuário tenha acesso somente ao que for permitido.                 | 5              | 1          |
+| 5.1      | Alta           | Como gestor, quero registrar perdas ou danos em materiais para controle de inventário.                         | 3              | 1          |
+| 5.2      | Alta           | Como gestor, quero editar cadastros de itens ou pedidos que contenham erros.                                   | 5              | 1          |
+| 5.3      | Alta           | Como gestor, quero excluir pedidos com erro, quando necessário.                                                | 3              | 1          |
+| 5.4      | Alta           | Como gestor, quero arquivar itens descontinuados ou fora de uso para manter o estoque limpo.                   | 3              | 1          |
+| 6.1      | Alta           | Como gestor, quero visualizar itens abaixo ou próximos do estoque mínimo para tomar decisões de reposição.     | 5              | 1          |
+| 6.2      | Alta           | Como gestor, quero visualizar os materiais mais requisitados com base na frequência de pedidos.                | 5              | 1          |
+| 6.3      | Alta           | Como gestor, quero acompanhar a demanda por meio de gráficos de coluna organizados por grupo de materiais.     | 5              | 1          |
 
 
 ---
