@@ -189,8 +189,7 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 
 Modelo inicial (Entidades, atributos e relacionamentos).
 
-![Modelo de Dados](docs/diagrams/modelo-dados.jpg)
-
+![Modelo de Dados](docs/diagrams/modeloDeDados.png)
 ## 🙎 Integrantes do Grupo
 
 <div align="center">
