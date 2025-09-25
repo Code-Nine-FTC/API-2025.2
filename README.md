@@ -139,7 +139,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 | **Capacidade estimada da equipe por sprint**                   | 36 Story Points                                                  |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| **Meta da Sprint**                                            | User Stories de Rank 1 ao 17 (Total: 63 Story Points)            |
+| **Meta da Sprint**                                            | User Stories de Rank 1 ao 17 (Total: 65 Story Points)            |
 | **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 3 e 14 (Total: 6 Story Points)              |
 
 <br>
