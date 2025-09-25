@@ -181,7 +181,7 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 
 ## 📂 Estrutura do Projeto
 
-> Em desenvolvimento.
+![Modelo de Dados](docs/diagrams/structure.png)
 
 ---
 
