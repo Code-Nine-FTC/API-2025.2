@@ -93,7 +93,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | **Rank** | **Prioridade** | **User Story**                                                                                                                                                         | **Estimativa** | **Sprint** |
 | -------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
 | 1        | Alta           | Como usuário do almoxarifado, quero cadastrar materiais com nome, ficha, grupo, estoque mínimo, unidade, e garenciar os mesmos                                         | 5              | 1          |
-| 2        | Alta           | Como gestor, gerenciar pedidos e os pedidos devem ser referentes a alguma seção do exército.                                                                           | 5              | 1          |
+| 2        | Alta           | Como gestor, eu quero os gerenciar pedidos.                                                                                                                            | 5              | 1          |
 | 3        | Alta           | Como gestor, quero visualizar os pedidos em aberto.                                                                                                                    | 3              | 1          |
 | 4        | Alta           | Como gestor, quero marcar os pedidos como retirados, contendo a data de retirada.                                                                                      | 3              | 1          |
 | 5        | Alta           | Como usuário, quero fazer login com e-mail e senha.                                                                                                                    | 3              | 1          |
@@ -106,9 +106,9 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
 | 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
 | 14       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
-| 15       | Média          | Como encarregado, quero adicionar itens doados manualmente, sem fornecedor.                                                                                            | 3              | 1          |
+| 15       | Média          | Como encarregado, quero filtrar e listar itens por grupo de limpeza, higiene etc. para facilitar a navegação no estoque.                                               | 3              | 1          |
 | 16       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
-| 17       | Média          | Como encarregado, quero filtrar e listar itens por grupo de limpeza, higiene etc. para facilitar a navegação no estoque.                                               | 3              | 1          |
+| 17       | Média          | Como encarregado, quero adicionar itens doados manualmente, sem fornecedor.                                                                                            | 3              | 2          |
 | 18       | Alta           | Como usuário, quero gerar um QR code por material.                                                                                                                     | 3              | 2          |
 | 19       | Alta           | Como usuário, quero escanear QR code e adicionar a quantidade de novos produtos.                                                                                       | 3              | 2          |
 | 20       | Alta           | Como gestor, quero visualizar o histórico de pedidos por seção para entender o padrão de consumo.                                                                      | 5              | 2          |
@@ -139,7 +139,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 | **Capacidade estimada da equipe por sprint**                   | 36 Story Points                                                  |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| **Meta da Sprint**                                            | User Stories de Rank 1 ao 17 (Total: 65 Story Points)            |
+| **Meta da Sprint**                                            | User Stories de Rank 1 ao 16 (Total: 62 Story Points)            |
 | **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 3 e 14 (Total: 6 Story Points)              |
 
 <br>
@@ -147,7 +147,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | **Rank** | **Prioridade** | **User Story**                                                                                                                                                         | **Estimativa** | **Sprint** |
 | -------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
 | 1        | Alta           | Como usuário do almoxarifado, quero cadastrar materiais com nome, ficha, grupo, estoque mínimo, unidade, e garenciar os mesmos                                         | 5              | 1          |
-| 2        | Alta           | Como gestor, gerenciar pedidos e os pedidos devem ser referentes a alguma seção do exército.                                                                           | 5              | 1          |
+| 2        | Alta           | Como gestor eu quero gerenciar pedidos.                                                                                                                                | 5              | 1          |
 | 3        | Alta           | Como gestor, quero visualizar os pedidos em aberto.                                                                                                                    | 3              | 1          |
 | 4        | Alta           | Como gestor, quero marcar os pedidos como retirados, contendo a data de retirada.                                                                                      | 3              | 1          |
 | 5        | Alta           | Como usuário, quero fazer login com e-mail e senha.                                                                                                                    | 3              | 1          |
@@ -160,9 +160,8 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
 | 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
 | 14       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
-| 15       | Média          | Como encarregado, quero adicionar itens doados manualmente, sem fornecedor.                                                                                            | 3              | 1          |
-| 16       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
-| 17       | Média          | Como encarregado, quero filtrar e listar itens por grupo de limpeza, higiene etc. para facilitar a navegação no estoque.                                               | 3              | 1          |
+| 15       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
+| 16       | Média          | Como encarregado, quero filtrar e listar itens por grupo de limpeza, higiene etc. para facilitar a navegação no estoque.                                               | 3              | 1          |
 
 
 ---
