@@ -65,7 +65,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 | Id   | Requisito Funcional                                                                                                                              |
 | :--- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| RF01 | **Gestão de Itens:** Permitir o cadastro, edição e consulta de itens, incluindo nome, descrição, unidade de medida e estoque mínimo.               |
+| RF01 | **Gestão de Itens:** Permitir o cadastro, edição e consulta de itens, incluindo nome, unidade de medida e estoque mínimo.               |
 | RF02 | **Controle de Entradas e Saídas:** Registrar a entrada de novos materiais e a saída por requisição, atualizando o estoque em tempo real.           |
 | RF03 | **Rastreabilidade com QR Code:** Gerar e ler QR Codes para identificar e consultar informações de itens rapidamente.                               |
 | RF04 | **Alertas de Estoque Mínimo:** Notificar gestores quando um item atingir o nível de estoque mínimo pré-definido.                                    |
@@ -160,8 +160,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
 | 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
 | 14       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
-| 15       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
-| 16       | Média          | Como encarregado, quero filtrar e listar itens por grupo de limpeza, higiene etc. para facilitar a navegação no estoque.                                               | 3              | 1          |
+| 15       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |           
 
 
 ---
