@@ -107,7 +107,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
 | 14       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
 | 15       | Média          | Como encarregado, quero filtrar e listar itens por grupo de limpeza, higiene etc. para facilitar a navegação no estoque.                                               | 3              | 1          |
-| 16       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
+| 16       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 2          |
 | 17       | Média          | Como encarregado, quero adicionar itens doados manualmente, sem fornecedor.                                                                                            | 3              | 2          |
 | 18       | Alta           | Como usuário, quero gerar um QR code por material.                                                                                                                     | 3              | 2          |
 | 19       | Alta           | Como usuário, quero escanear QR code e adicionar a quantidade de novos produtos.                                                                                       | 3              | 2          |
@@ -139,7 +139,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 | **Capacidade estimada da equipe por sprint**                   | 36 Story Points                                                  |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| **Meta da Sprint**                                            | User Stories de Rank 1 ao 16 (Total: 62 Story Points)            |
+| **Meta da Sprint**                                            | User Stories de Rank 1 ao 16 (Total: 59 Story Points)            |
 | **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 3 e 14 (Total: 6 Story Points)              |
 
 <br>
