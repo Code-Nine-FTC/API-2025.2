@@ -1,9 +1,9 @@
-[submodule "MachineLearningService"]
-	path = MachineLearningService
-	url = https://github.com/Code-Nine-FTC/MachineLearningService
 [submodule "ManagementService"]
 	path = ManagementService
 	url = https://github.com/Code-Nine-FTC/ManagementService
 [submodule "MobileInterface"]
 	path = MobileInterface
 	url = https://github.com/Code-Nine-FTC/MobileInterface-2025.2
+[submodule "WebInterface"]
+	path = WebInterface
+	url = https://github.com/Code-Nine-FTC/WebInterface-2025.2
