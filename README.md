@@ -24,6 +24,7 @@
 - [Requisitos do Projeto](#-requisitos-do-projeto)
 - [Product Backlog](#-product-backlog)
 - [Backlog da Sprint](#-backlog-da-sprint)
+- [Vídeos de Demonstração da Sprint 1](#-vídeos-de-demonstração-da-sprint-1)
 - [DoR (Definition of Ready)](docs/dor.md)
 - [DoD (Definition of Done)](docs/dod.md)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
@@ -160,6 +161,13 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
 | 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |        
 
+
+---
+
+## 📽️ Vídeos de Demonstração da Sprint 1
+
+- [Demonstração Web - Sprint 1](docs/videos/demonstracao_web_sprint01.mp4)
+- [Demonstração Mobile - Sprint 1](docs/videos/demonstracao_mobile_sprint01.mp4)
 
 ---
 
