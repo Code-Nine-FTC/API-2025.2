@@ -1,9 +1,12 @@
 [submodule "ManagementService"]
-	path = ManagementService
-	url = https://github.com/Code-Nine-FTC/ManagementService
+    path = ManagementService
+    url = https://github.com/Code-Nine-FTC/ManagementService
+    branch = main
 [submodule "MobileInterface"]
-	path = MobileInterface
-	url = https://github.com/Code-Nine-FTC/MobileInterface-2025.2
+    path = MobileInterface
+    url = https://github.com/Code-Nine-FTC/MobileInterface-2025.2
+    branch = main
 [submodule "WebInterface"]
-	path = WebInterface
-	url = https://github.com/Code-Nine-FTC/WebInterface-2025.2
+    path = WebInterface
+    url = https://github.com/Code-Nine-FTC/WebInterface-2025.2
+    branch = main
