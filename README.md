@@ -11,7 +11,7 @@
 
 <div align="center">
 
-![Badge](https://img.shields.io/badge/status-planejamento-lightgrey)
+![Badge](https://img.shields.io/badge/status-Em%20andamento-yellow)
 ![Badge](https://img.shields.io/badge/metodologia-Scrum-blue)
 
 </div>
@@ -29,6 +29,7 @@
 - [DoD (Definition of Done)](docs/dod.md)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Modelo de Dados](#-modelo-de-dados)
+- [Manuais de Instalação e Uso](#-manuais-de-instalação-e-uso)
 - [Estratégia de Branching](docs/estrategia-de-branch.md)
 - [Padrão de Commit](docs/padrao-de-commits.md)
 - [Integrantes do Grupo](#-integrantes-do-grupo)
@@ -48,6 +49,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 <div align="center">
   <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/></a>
   <a href="https://dart.dev/"><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" /></a>
+  <a href="https://vuejs.org/"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/></a>
   <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/></a>
   <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white"/></a>
   <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white"/></a>
@@ -192,7 +194,7 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 
 ## 📂 Estrutura do Projeto
 
-![Modelo de Dados](docs/diagrams/structure.png)
+![Estrutura do Projeto](docs/diagrams/structure.jpg)
 
 ---
 
@@ -201,6 +203,23 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 Modelo inicial (Entidades, atributos e relacionamentos).
 
 ![Modelo de Dados](docs/diagrams/modeloDeDados.png)
+
+---
+
+## 📚 Manuais de Instalação e Uso
+
+- **ManagementService**
+  - [Manual de Instalação](https://github.com/Code-Nine-FTC/ManagementService/blob/main/docs/manual-de-instalacao.md)
+  - [Manual do Usuário](https://github.com/Code-Nine-FTC/ManagementService/blob/main/docs/manual-do-usuario.md)
+- **MobileInterface-2025.2**
+  - [Manual de Instalação](https://github.com/Code-Nine-FTC/MobileInterface-2025.2/blob/main/docs/manual-de-instalacao.md)
+  - [Manual do Usuário](https://github.com/Code-Nine-FTC/MobileInterface-2025.2/blob/main/docs/manual-do-usuario.md)
+- **WebInterface-2025.2**
+  - [Manual de Instalação](https://github.com/Code-Nine-FTC/WebInterface-2025.2/blob/main/docs/manual-de-instalacao.md)
+  - [Manual do Usuário](https://github.com/Code-Nine-FTC/WebInterface-2025.2/blob/main/docs/manual-do-usuario.md)
+
+---
+
 ## 🙎 Integrantes do Grupo
 
 <div align="center">
