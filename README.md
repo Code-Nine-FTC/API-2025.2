@@ -108,41 +108,39 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 11       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
 | 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
 | 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
-| 14       | Alta           | Como usuário, quero registrar perdas ou danos em materiais.                                                                                                            | 3              | 2          |
-| 15       | Média          | Como gestor, quero marcar os pedidos como retirados, contendo a data de retirada.                                                                                      | 3              | 2          |
-| 16       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 2          |
-| 17       | Média          | Como encarregado, quero adicionar itens doados manualmente, sem fornecedor.                                                                                            | 3              | 2          |
-| 18       | Alta           | Como usuário, quero gerar um QR code por material.                                                                                                                     | 3              | 2          |
-| 19       | Alta           | Como usuário, quero escanear QR code e adicionar a quantidade de novos produtos.                                                                                       | 3              | 2          |
-| 20       | Alta           | Como gestor, quero visualizar o histórico de pedidos por seção para entender o padrão de consumo.                                                                      | 5              | 2          |
-| 21       | Alta           | Como usuário, quero arquivar itens fora de uso para manter o estoque limpo e atualizado.                                                                               | 3              | 2          |
-| 22       | Alta           | Como usuário, quero visualizar materiais próximos ou abaixo do estoque mínimo.                                                                                         | 3              | 2          |
+| 14       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
+| 15       | Alta           | Como usuário, quero visualizar materiais próximos ou abaixo do estoque mínimo.                                                                                         | 3              | 1          |
+| 16       | Alta           | Como usuário, quero registrar perdas ou danos em materiais.                                                                                                            | 3              | 2          |
+| 17       | Média          | Como gestor, quero marcar os pedidos como retirados, contendo a data de retirada.                                                                                      | 3              | 2          |
+| 18       | Média          | Como encarregado, quero adicionar itens doados manualmente.                                                                                                            | 3              | 2          |
+| 19       | Alta           | Como usuário, quero gerar um QR code por material.                                                                                                                     | 3              | 2          |
+| 20       | Alta           | Como usuário, quero escanear QR code e adicionar a quantidade de novos produtos.                                                                                       | 3              | 2          |
+| 21       | Alta           | Como gestor, quero visualizar o histórico de pedidos por seção para entender o padrão de consumo.                                                                      | 5              | 2          |
+| 22       | Alta           | Como usuário, quero arquivar itens fora de uso para manter o estoque limpo e atualizado.                                                                               | 3              | 2          |
 | 23       | Alta           | Como usuário, quero ver os materiais mais requisitados por frequência e acompanhar a demanda por meio de gráficos de coluna por grupo de materiais.                    | 5              | 2          |
 | 24       | Alta           | Como gestor, quero ver o status de entrega dos fornecedores e entrega de e-mails enviados.                                                                             | 5              | 2          |
 | 25       | Alta           | Como gestor, quero disparar e-mails automáticos para fornecedores para evitar atrasos.                                                                                 | 8              | 2          |
 | 26       | Média          | Como usuário, quero visualizar um dashboard com itens em falta/vencimentos.                                                                                            | 3              | 2          |
 | 27       | Média          | Como usuário, quero visualizar um dashboard com pedidos em aberto.                                                                                                     | 3              | 2          |
 | 28       | Média          | Como administrador/gestor, quero visualizar um dashboard com o consumo mensal por seção.                                                                               | 5              | 2          |
-| 29       | Média          | Como administrador/gestor, quero receber alertas quando um item estiver próximo do estoque mínimo.                                                                     | 5              | 2          |
-| 30       | Média          | Como gestor da farmácia, quero visualizar medicamentos vencidos ou próximos do vencimento.                                                                             | 3              | 2          |
-| 31       | Baixa          | Como encarregado, quero receber notificações sobre materiais vencendo ou próximos do estoque mínimo para facilitar a gestão do estoque.                                | 3              | 2          |
-| 32       | Baixa          | Como gestor, quero arquivar itens fora de uso ou descontinuados para não poluir visualizações do estoque ativo.                                                        | 2              | 2          |
-| 33       | Alta           | Como usuário, quero poder prever a quantidade de materiais para o próximo mês através de uma IA.                                                                       | 8              | 3          |
-| 34       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL incluindo status de estoque (itens em falta, vencimentos).                                                         | 5              | 3          |
-| 35       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL de pedidos, incluindo em aberto, para conferência com o sistema oficial.                                           | 5              | 3          |
-| 36       | Média          | Como encarregado, quero adicionar a data de entrada de cada lote para controle e rastreabilidade completa.                                                             | 3              | 3          |
-| 37       | Média          | Como sistema, quero registrar as ações realizadas pelos usuários, para rastreabilidade.                                                                                | 5              | 3          |
-| 38       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                                               | 5              | 3          |
-| 39       | Baixa          | Como encarregado, quero receber notificações internas sobre pedidos pendentes.                                                                                         | 3              | 3          |
+| 29       | Média          | Como administrador/gestor/encarregado, quero receber alertas quando um item estiver próximo do estoque mínimo.                                                         | 5              | 2          |
+| 30       | Média          | Como gestor da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento.                                                                | 3              | 2          |
+| 31       | Alta           | Como usuário, quero poder prever a quantidade de materiais para o próximo mês através de uma IA.                                                                       | 8              | 3          |
+| 32       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL incluindo status de estoque (itens em falta, vencimentos).                                                         | 5              | 3          |
+| 33       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL de pedidos, incluindo em aberto, para conferência com o sistema oficial.                                           | 5              | 3          |
+| 34       | Média          | Como encarregado, quero adicionar a data de entrada de cada lote para controle e rastreabilidade completa.                                                             | 3              | 3          |
+| 35       | Média          | Como sistema, quero registrar as ações realizadas pelos usuários, para rastreabilidade.                                                                                | 5              | 3          |
+| 36       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                                               | 5              | 3          |
+| 37       | Baixa          | Como encarregado, quero receber notificações internas sobre pedidos pendentes.                                                                                         | 3              | 3          |
 
 
 --- 
 
 ## 📆 Backlog da Sprint
 
-| **Capacidade estimada da equipe por sprint**                   | 59 Story Points                                                  |
+| **Capacidade estimada da equipe por sprint**                   | 56 Story Points                                                  |
 |:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| **Meta da Sprint**                                            | User Stories de Rank 1 ao 13 (Total: 51 Story Points)            |
+| **Meta da Sprint**                                            | User Stories de Rank 1 ao 15 (Total: 56 Story Points)            |
 | **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 2 e 6 (Total: 8 Story Points)              |
 
 <br>
@@ -150,7 +148,7 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | **Rank** | **Prioridade** | **User Story**                                                                                                                                                         | **Estimativa** | **Sprint** |
 | -------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
 | 1        | Alta           | Como usuário do almoxarifado, quero cadastrar materiais com nome, ficha, grupo, estoque mínimo, unidade, e garenciar os mesmos                                         | 5              | 1          |
-| 2        | Alta           | Como gestor eu quero gerenciar pedidos.                                                                                                                                | 5              | 1          |
+| 2        | Alta           | Como gestor, eu quero os gerenciar pedidos.                                                                                                                            | 5              | 1          |
 | 3        | Alta           | Como gestor, quero visualizar os pedidos em aberto.                                                                                                                    | 3              | 1          |
 | 4        | Alta           | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
 | 5        | Alta           | Como usuário, quero fazer login com e-mail e senha.                                                                                                                    | 3              | 1          |
@@ -161,7 +159,9 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 10       | Alta           | Como administrador, quero cadastrar usuários e fornecedores de forma web.                                                                                              | 5              | 1          |
 | 11       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
 | 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
-| 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |        
+| 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
+| 14       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
+| 15       | Alta           | Como usuário, quero visualizar materiais próximos ou abaixo do estoque mínimo.                                                                                         | 3              | 1          |       
 
 
 ---
