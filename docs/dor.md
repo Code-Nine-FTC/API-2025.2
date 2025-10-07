@@ -1,24 +1,22 @@
-# Definition of Ready (DoR) — Versão Inicial
+# Definition of Ready (DoR)
 
-**Objetivo:** Checklist mínimo que uma user story/issue deve satisfazer antes de entrar em uma sprint.
-
-## Checklist
-- [ ] Título claro e descrição objetiva com valor de negócio.
-- [ ] Critérios de aceitação listados e testáveis.
-- [ ] Dependências identificadas e documentadas (APIs, infra, pessoas).
-- [ ] Bloqueadores conhecidos removidos ou planificados com responsáveis.
-- [ ] Estimativa informada (story points ou horas) pela equipe.
-- [ ] Ambiente de desenvolvimento disponível.
-- [ ] Designs/Mockups anexados quando relevantes.
-- [ ] Dados de teste ou exemplos de request/response incluídos se for API.
-- [ ] PO disponível para esclarecimentos durante a sprint.
-- [ ] Risco técnico identificado e, se alto, spike/task de investigação criada.
-
-## Critérios adicionais (opcionais)
-- [ ] Impacto em segurança/privacidade avaliado.
-- [ ] Critérios de performance definidos (se aplicável).
+**Objetivo:** Assegurar que uma história de usuário (issue) possui a clareza e os detalhes necessários para ser selecionada para uma Sprint. Uma issue "Ready" pode ser desenvolvida sem a necessidade de mais pesquisas ou decisões.
 
 ---
 
-**Uso**
-- Qualquer item que não cumpra o DoR deve ser movido para backlog/refinamento antes do planning.
+### Checklist de Prontidão
+
+Uma issue é considerada **Ready** quando atende aos seguintes critérios:
+
+-   **[ ] Valor de Negócio Definido:** A descrição da issue explica claramente o "porquê" e qual valor ela entrega ao usuário ou ao negócio.
+-   **[ ] Critérios de Aceitação Claros:** Os critérios são objetivos, testáveis e não deixam margem para interpretação. (Ex: "O usuário deve clicar no botão X e ver a tela Y").
+-   **[ ] Requisitos Técnicos Mapeados:**
+    -   As dependências (outras APIs, serviços externos) foram identificadas.
+    -   Para APIs, o contrato esperado (request/response) está exemplificado.
+-   **[ ] UI/UX Definido (Quando Aplicável):** Mockups, protótipos ou fluxos de tela estão anexados e aprovados.
+-   **[ ] Estimativa Realizada:** A issue foi pontuada (Story Points) ou estimada em horas pela equipe de desenvolvimento.
+-   **[ ] Independência:** A issue pode ser desenvolvida e testada de forma independente (ou suas dependências já estão resolvidas).
+
+---
+
+**Nota:** Issues que não cumprem este checklist devem ser revisadas e refinadas.
