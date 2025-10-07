@@ -28,7 +28,7 @@
 - [Definition of Ready (DoR)](#-definition-of-ready-dor)
 - [Definition of Done (DoD)](#-definition-of-done-dod)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Modelo de Dados](#-modelo-de-dados)
+- [Modelo de Dados](#modelo-de-dados)
 - [Manuais de Instalação e Uso](#-manuais-de-instalação-e-uso)
 - [Estratégia de Branching](#-estratégia-de-branching)
 - [Padrão de Commit](#-padrão-de-commit)
@@ -162,7 +162,7 @@ Atualmente, estamos na **Sprint 2**.
 
 ---
 
-## 🗂️ Histórico de Sprints
+## Histórico de Sprints
 
 - [**Sprint 1**](docs/sprints/sprint-01.md): Backlog e vídeos de demonstração.
 
@@ -186,7 +186,7 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 
 ---
 
-## 🗄️ Modelo de Dados
+## Modelo de Dados
 
 Modelo inicial (Entidades, atributos e relacionamentos).
 
