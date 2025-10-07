@@ -23,15 +23,15 @@
 - [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
 - [Requisitos do Projeto](#-requisitos-do-projeto)
 - [Product Backlog](#-product-backlog)
-- [Backlog da Sprint](#-backlog-da-sprint)
-- [Vídeos de Demonstração da Sprint 1](#-vídeos-de-demonstração-da-sprint-1)
-- [DoR (Definition of Ready)](docs/dor.md)
-- [DoD (Definition of Done)](docs/dod.md)
+- [Backlog da Sprint Atual](#-backlog-da-sprint-atual)
+- [Histórico de Sprints](#-histórico-de-sprints)
+- [Definition of Ready (DoR)](#-definition-of-ready-dor)
+- [Definition of Done (DoD)](#-definition-of-done-dod)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Modelo de Dados](#-modelo-de-dados)
 - [Manuais de Instalação e Uso](#-manuais-de-instalação-e-uso)
-- [Estratégia de Branching](docs/estrategia-de-branch.md)
-- [Padrão de Commit](docs/padrao-de-commits.md)
+- [Estratégia de Branching](#-estratégia-de-branching)
+- [Padrão de Commit](#-padrão-de-commit)
 - [Integrantes do Grupo](#-integrantes-do-grupo)
 
 ---
@@ -131,40 +131,11 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 34       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                                               | 5              | 3          |
 | 35       | Baixa          | Como encarregado, quero receber notificações internas sobre pedidos pendentes.                                                                                         | 3              | 3          |
 
-
 --- 
 
-## 📆 Backlog da Sprint 1
+## 📆 Backlog da Sprint Atual
 
-| **Capacidade estimada da equipe por sprint**                   | 56 Story Points                                                  |
-|:-------------------------------------------------------------:|:----------------------------------------------------------------:|
-| **Meta da Sprint**                                            | User Stories de Rank 1 ao 15 (Total: 56 Story Points)            |
-| **Previsão da Sprint (extras, sem compromisso de entrega)**   | User Stories de Rank 2 e 6 (Total: 8 Story Points)              |
-
-<br>
-
-| **Rank** | **Prioridade** | **User Story**                                                                                                                                                         | **Estimativa** | **Sprint** |
-| -------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
-| 1        | Alta           | Como usuário do almoxarifado, quero cadastrar materiais com nome, ficha, grupo, estoque mínimo, unidade, e garenciar os mesmos                                         | 5              | 1          |
-| 2        | Alta           | Como gestor, eu quero os gerenciar pedidos.                                                                                                                            | 5              | 1          |
-| 3        | Alta           | Como gestor, quero visualizar os pedidos em aberto.                                                                                                                    | 3              | 1          |
-| 4        | Alta           | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
-| 5        | Alta           | Como usuário, quero fazer login com e-mail e senha.                                                                                                                    | 3              | 1          |
-| 6        | Alta           | Como usuário, quero acessar os módulos do sistema de acordo com o meu perfil (almoxarifado, farmácia).                                                                 | 3              | 1          |
-| 7        | Alta           | Como usuário, quero acessar a unidade ou estoque na qual eu pertenço.                                                                                                  | 3              | 1          |
-| 8        | Alta           | Como administrador, quero gerenciar usuários (contendo seus perfis na tela de cadastro).                                                                               | 5              | 1          |
-| 9        | Alta           | Como administrador, quero vincular os usuários a unidades/estoques específicos, garantindo acesso limitado por perfil.                                                 | 5              | 1          |
-| 10       | Alta           | Como administrador, quero cadastrar usuários e fornecedores de forma web.                                                                                              | 5              | 1          |
-| 11       | Alta           | Como gestor, quero gerenciar fornecedores.                                                                                                                             | 3              | 1          |
-| 12       | Alta           | Como gestor/administrador, quero cadastrar fornecedores com CNPJ, email e número de empenho.                                                                           | 5              | 1          |
-| 13       | Alta           | Como gestor/administrador, quero visualizar fornecedores em forma de lista.                                                                                            | 3              | 1          |
-| 14       | Média          | Como gestor da farmácia, quero cadastrar medicamentos com data de validade.                                                                                            | 3              | 1          |
-| 15       | Alta           | Como usuário, quero visualizar materiais próximos ou abaixo do estoque mínimo.                                                                                         | 3              | 1          |       
-
-
----
-
-## 📆 Backlog da Sprint 2
+Atualmente, estamos na **Sprint 2**.
 
 | **Capacidade estimada da equipe por sprint** | 54 Story Points |
 |:--------------------------------------------:|:---------------:|
@@ -189,23 +160,16 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 27 | Média | Como administrador/gestor/encarregado, quero receber alertas quando um item estiver próximo do estoque mínimo. | 5 | 2 |
 | 28 | Média | Como gestor da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento. | 3 | 2 |
 
+---
 
-## 📽️ Vídeos de Demonstração da Sprint 1
+## 🗂️ Histórico de Sprints
 
-### Demonstração Mobile - Sprint 1
-
-[![Demonstração Mobile - Sprint 1](https://img.youtube.com/vi/3Aegw9ZqR74/hqdefault.jpg)](https://youtube.com/shorts/3Aegw9ZqR74?feature=share)
+- [**Sprint 1**](docs/sprints/sprint-01.md): Backlog e vídeos de demonstração.
 
 ---
 
-### Demonstração Web - Sprint 1
-
-[![Demonstração Web - Sprint 1](https://img.youtube.com/vi/AYUtoptRPpk/hqdefault.jpg)](https://youtu.be/AYUtoptRPpk)
-
----
-
-## ✅ Checklist de DoR
-Checklist resumido — para a versão completa e imprimível, consulte:  
+## ✅ Definition of Ready (DoR)
+Critérios de aceitação para assegurar a qualidade de uma issue:
 [📄 Definition of Ready (DoR) — docs/dor.md](docs/dor.md)
 
 ---
@@ -241,6 +205,20 @@ Modelo inicial (Entidades, atributos e relacionamentos).
 - **WebInterface-2025.2**
   - [Manual de Instalação](https://github.com/Code-Nine-FTC/WebInterface-2025.2/blob/main/docs/manual-de-instalacao.md)
   - [Manual do Usuário](https://github.com/Code-Nine-FTC/WebInterface-2025.2/blob/main/docs/manual-do-usuario.md)
+
+---
+
+## 🌿 Estratégia de Branching
+
+A estratégia de branching define como o código é gerenciado no Git. Para detalhes completos, consulte o documento:  
+[📄 Estratégia de Branching — docs/estrategia-de-branch.md](docs/estrategia-de-branch.md)
+
+---
+
+## ✨ Padrão de Commit
+
+O padrão de commit garante mensagens claras e consistentes no histórico do projeto. Para detalhes, consulte o documento:  
+[📄 Padrão de Commit — docs/padrao-de-commits.md](docs/padrao-de-commits.md)
 
 ---
 
