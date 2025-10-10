@@ -123,13 +123,15 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 26       | Média          | Como administrador/gestor, quero visualizar um dashboard com o consumo mensal por seção.                                                                               | 5              | 2          |
 | 27       | Média          | Como administrador/gestor/encarregado, quero receber alertas quando um item estiver próximo do estoque mínimo.                                                         | 5              | 2          |
 | 28       | Média          | Como gestor da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento.                                                                | 3              | 2          |
-| 29       | Alta           | Como usuário, quero poder prever a quantidade de materiais para o próximo mês através de uma IA.                                                                       | 8              | 3          |
-| 30       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL incluindo status de estoque (itens em falta, vencimentos).                                                         | 5              | 3          |
-| 31       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL de pedidos, incluindo em aberto, para conferência com o sistema oficial.                                           | 5              | 3          |
-| 32       | Média          | Como encarregado, quero adicionar a data de entrada de cada lote para controle e rastreabilidade completa.                                                             | 3              | 3          |
-| 33       | Média          | Como sistema, quero registrar as ações realizadas pelos usuários, para rastreabilidade.                                                                                | 5              | 3          |
-| 34       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                                               | 5              | 3          |
-| 35       | Baixa          | Como encarregado, quero receber notificações internas sobre pedidos pendentes.                                                                                         | 3              | 3          |
+| 29       | Alta           | Como gestor, quero cadastrar e gerenciar Seções e associar cada pedido a uma seção para analisar o consumo por seção e geral.                                          | 5              | 2          |
+| 30       | Alta           | Como usuário da farmacia, quero gerir lotes e validades para controlar vencimentos por lote.                                                                           | 5              | 2          |
+| 31       | Alta           | Como usuário, quero poder prever a quantidade de materiais para o próximo mês através de uma IA.                                                                       | 8              | 3          |
+| 32       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL incluindo status de estoque (itens em falta, vencimentos).                                                         | 5              | 3          |
+| 33       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL de pedidos, incluindo em aberto, para conferência com o sistema oficial.                                           | 5              | 3          |
+| 34       | Média          | Como encarregado, quero adicionar a data de entrada de cada lote para controle e rastreabilidade completa.                                                             | 3              | 3          |
+| 35       | Média          | Como sistema, quero registrar as ações realizadas pelos usuários, para rastreabilidade.                                                                                | 5              | 3          |
+| 36       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                                               | 5              | 3          |
+| 37       | Baixa          | Como encarregado, quero receber notificações internas sobre pedidos pendentes.                                                                                         | 3              | 3          |
 
 --- 
 
@@ -139,7 +141,7 @@ Atualmente, estamos na **Sprint 2**.
 
 | **Capacidade estimada da equipe por sprint** | 54 Story Points |
 |:--------------------------------------------:|:---------------:|
-| **Meta da Sprint** | Entregar as User Stories de Rank 16 a 28 (Total: 54 Story Points) |
+| **Meta da Sprint** | Entregar as User Stories de Rank 16 a 30 (Total: 64 Story Points) |
 | **Previsão (Extra sem compromisso de entrega)** | User Stories de Rank 23 (Total: 8 Story Points)  |
 
 <br>
@@ -159,6 +161,8 @@ Atualmente, estamos na **Sprint 2**.
 | 26 | Média | Como administrador/gestor, quero visualizar um dashboard com o consumo mensal por seção. | 5 | 2 |
 | 27 | Média | Como administrador/gestor/encarregado, quero receber alertas quando um item estiver próximo do estoque mínimo. | 5 | 2 |
 | 28 | Média | Como gestor da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento. | 3 | 2 |
+| 29 | Alta  | Como gestor, quero cadastrar e gerenciar Seções e associar cada pedido a uma seção para analisar o consumo por seção e geral. | 5 | 2 |
+| 30 | Alta  | Como usuário da farmacia, quero gerir lotes e validades para controlar vencimentos por lote. | 5 | 2 |
 
 ---
 
