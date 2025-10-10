@@ -120,10 +120,10 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 23       | Alta           | Como gestor, quero disparar e-mails automáticos para fornecedores para evitar atrasos.                                                                                 | 8              | 2          |
 | 24       | Média          | Como usuário, quero visualizar um dashboard com itens em falta/vencimentos.                                                                                            | 3              | 2          |
 | 25       | Média          | Como usuário, quero visualizar um dashboard com pedidos em aberto.                                                                                                     | 3              | 2          |
-| 26       | Média          | Como administrador/gestor, quero visualizar um dashboard com o consumo mensal por seção.                                                                               | 5              | 2          |
-| 27       | Média          | Como administrador/gestor/encarregado, quero receber alertas quando um item estiver próximo do estoque mínimo.                                                         | 5              | 2          |
-| 28       | Média          | Como gestor da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento.                                                                | 3              | 2          |
-| 29       | Alta           | Como gestor, quero cadastrar e gerenciar Seções e associar cada pedido a uma seção para analisar o consumo por seção e geral.                                          | 5              | 2          |
+| 26       | Média          | Como usuário, quero visualizar um dashboard com o consumo mensal por seção.                                                                                            | 5              | 2          |
+| 27       | Média          | Como usuário, quero receber alertas quando um item estiver próximo do estoque mínimo.                                                                                  | 5              | 2          |
+| 28       | Média          | Como usuário da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento.                                                               | 3              | 2          |
+| 29       | Alta           | Como gestor/administrador, quero cadastrar e gerenciar Seções e associar cada pedido a uma seção para analisar o consumo por seção e geral.                            | 5              | 2          |
 | 30       | Alta           | Como usuário da farmacia, quero gerir lotes e validades para controlar vencimentos por lote.                                                                           | 5              | 2          |
 | 31       | Alta           | Como usuário, quero poder prever a quantidade de materiais para o próximo mês através de uma IA.                                                                       | 8              | 3          |
 | 32       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL incluindo status de estoque (itens em falta, vencimentos).                                                         | 5              | 3          |
@@ -158,9 +158,9 @@ Atualmente, estamos na **Sprint 2**.
 | 23 | Alta  | Como gestor, quero disparar e-mails automáticos para fornecedores para evitar atrasos. | 8 | 2 |
 | 24 | Média | Como usuário, quero visualizar um dashboard com itens em falta/vencimentos. | 3 | 2 |
 | 25 | Média | Como usuário, quero visualizar um dashboard com pedidos em aberto. | 3 | 2 |
-| 26 | Média | Como administrador/gestor, quero visualizar um dashboard com o consumo mensal por seção. | 5 | 2 |
-| 27 | Média | Como administrador/gestor/encarregado, quero receber alertas quando um item estiver próximo do estoque mínimo. | 5 | 2 |
-| 28 | Média | Como gestor da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento. | 3 | 2 |
+| 26 | Média | Como usuário, quero visualizar um dashboard com o consumo mensal por seção. | 5 | 2 |
+| 27 | Média | Como usuário, quero receber alertas quando um item estiver próximo do estoque mínimo. | 5 | 2 |
+| 28 | Média | Como usuário da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento. | 3 | 2 |
 | 29 | Alta  | Como gestor, quero cadastrar e gerenciar Seções e associar cada pedido a uma seção para analisar o consumo por seção e geral. | 5 | 2 |
 | 30 | Alta  | Como usuário da farmacia, quero gerir lotes e validades para controlar vencimentos por lote. | 5 | 2 |
 
