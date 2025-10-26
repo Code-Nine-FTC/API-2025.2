@@ -23,7 +23,6 @@
 - [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
 - [Requisitos do Projeto](#-requisitos-do-projeto)
 - [Product Backlog](#-product-backlog)
-- [Backlog da Sprint Atual](#-backlog-da-sprint-atual)
 - [Histórico de Sprints](#-histórico-de-sprints)
 - [Definition of Ready (DoR)](#-definition-of-ready-dor)
 - [Definition of Done (DoD)](#-definition-of-done-dod)
@@ -133,42 +132,12 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 | 36       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                                               | 5              | 3          |
 | 37       | Baixa          | Como encarregado, quero receber notificações internas sobre pedidos pendentes.                                                                                         | 3              | 3          |
 
---- 
-
-## 📆 Backlog da Sprint Atual
-
-Atualmente, estamos na **Sprint 2**.
-
-| **Capacidade estimada da equipe por sprint** | 54 Story Points |
-|:--------------------------------------------:|:---------------:|
-| **Meta da Sprint** | Entregar as User Stories de Rank 16 a 30 (Total: 64 Story Points) |
-| **Previsão (Extra sem compromisso de entrega)** | User Stories de Rank 23 (Total: 8 Story Points)  |
-
-<br>
-
-| **Rank** | **Prioridade** | **User Story** | **Estimativa** | **Sprint** |
-| -------- | -------------- | -------------- | -------------- | ---------- |
-| 16 | Alta  | Como usuário, quero registrar perdas ou danos em materiais. | 3 | 2 |
-| 17 | Média | Como gestor, quero marcar os pedidos como retirados, contendo a data de retirada. | 3 | 2 |
-| 18 | Alta  | Como usuário, quero gerar um QR code por material. | 3 | 2 |
-| 19 | Alta  | Como usuário, quero escanear QR code e adicionar a quantidade de novos produtos. | 3 | 2 |
-| 20 | Alta  | Como gestor, quero visualizar o histórico de pedidos por seção para entender o padrão de consumo. | 5 | 2 |
-| 21 | Alta  | Como usuário, quero ver os materiais mais requisitados por frequência e acompanhar a demanda por meio de gráficos de coluna por grupo de materiais. | 5 | 2 |
-| 22 | Alta  | Como gestor, quero ver o status de entrega dos fornecedores e entrega de e-mails enviados. | 5 | 2 |
-| 23 | Alta  | Como gestor, quero disparar e-mails automáticos para fornecedores para evitar atrasos. | 8 | 2 |
-| 24 | Média | Como usuário, quero visualizar um dashboard com itens em falta/vencimentos. | 3 | 2 |
-| 25 | Média | Como usuário, quero visualizar um dashboard com pedidos em aberto. | 3 | 2 |
-| 26 | Média | Como usuário, quero visualizar um dashboard com o consumo mensal por seção. | 5 | 2 |
-| 27 | Média | Como usuário, quero receber alertas quando um item estiver próximo do estoque mínimo. | 5 | 2 |
-| 28 | Média | Como usuário da farmácia/almoxarifado, quero visualizar medicamentos vencidos ou próximos do vencimento. | 3 | 2 |
-| 29 | Alta  | Como gestor, quero cadastrar e gerenciar Seções e associar cada pedido a uma seção para analisar o consumo por seção e geral. | 5 | 2 |
-| 30 | Alta  | Como usuário da farmacia, quero gerir lotes e validades para controlar vencimentos por lote. | 5 | 2 |
-
 ---
 
 ## Histórico de Sprints
 
 - [**Sprint 1**](docs/sprints/sprint-01.md): Backlog e vídeos de demonstração.
+- [**Sprint 2**](docs/sprints/sprint-02.md): Backlog e vídeos de demonstração.
 
 ---
 
