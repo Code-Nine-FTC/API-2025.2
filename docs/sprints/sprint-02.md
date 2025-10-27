@@ -33,8 +33,8 @@
 
 ### Demonstração Web
 
-<!-- Adicione o link para o vídeo de demonstração da interface Web aqui -->
+[Link para o vídeo de demonstração Web](https://youtu.be/LLygpviq4p4)
 
 ### Demonstração Mobile
 
-<!-- Adicione o link para o vídeo de demonstração da interface Mobile aqui -->
+[Link para o vídeo de demonstração Mobile](https://youtube.com/shorts/DG5XggU4_sA?feature=share)
