@@ -138,6 +138,15 @@ Estas foram as tecnologias escolhidas para a produção do projeto:
 
 ---
 
+## ✅ Backlog da **Sprint 3**
+| **Rank** | **Prioridade** | **User Story**                                                                                                                                      | **Estimativa** | **Sprint** |
+| -------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
+| 31       | Alta           | Como usuário, quero poder prever a quantidade de materiais para o próximo mês através de uma IA.                                                    | 8              | 3          |
+| 32       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL incluindo status de estoque (itens em falta, vencimentos).                                      | 5              | 3          |
+| 33       | Alta           | Como gestor, quero gerar relatórios em PDF ou EXCEL de pedidos, incluindo em aberto, para conferência com o sistema oficial.                        | 5              | 3          |
+| 34       | Média          | Como sistema, quero registrar as ações realizadas pelos usuários, para rastreabilidade.                                                             | 5              | 3          |
+| 35       | Média          | Como farmácia, quero poder me comunicar com pacientes para agendamentos e tirar dúvidas.                                                            | 5              | 3          |
+---
 ## ✅ Definition of Ready (DoR)
 Critérios de aceitação para assegurar a qualidade de uma issue:
 [📄 Definition of Ready (DoR) — docs/dor.md](docs/dor.md)
