@@ -33,10 +33,10 @@
 
 ### Demonstração Mobile - Sprint 1
 
-[![Demonstração Mobile - Sprint 1](https://img.youtube.com/vi/3Aegw9ZqR74/hqdefault.jpg)](https://youtube.com/shorts/3Aegw9ZqR74?feature=share)
+[Link para o vídeo de demonstração Mobile](https://youtube.com/shorts/3Aegw9ZqR74?feature=share)
 
 ---
 
 ### Demonstração Web - Sprint 1
 
-[![Demonstração Web - Sprint 1](https://img.youtube.com/vi/AYUtoptRPpk/hqdefault.jpg)](https://youtu.be/AYUtoptRPpk)
+[Link para o vídeo de demonstração Web](https://youtu.be/AYUtoptRPpk)
