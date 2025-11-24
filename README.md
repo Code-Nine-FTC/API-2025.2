@@ -28,7 +28,6 @@
 - [Definition of Done (DoD)](#-definition-of-done-dod)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Modelo de Dados](#modelo-de-dados)
-- [Manuais de Instalação e Uso](#-manuais-de-instalação-e-uso)
 - [Estratégia de Branching](#-estratégia-de-branching)
 - [Padrão de Commit](#-padrão-de-commit)
 - [Integrantes do Grupo](#-integrantes-do-grupo)
@@ -164,20 +163,6 @@ Critérios de aceitação e qualidade para encerrar uma issue/PR:
 Modelo inicial (Entidades, atributos e relacionamentos).
 
 ![Modelo de Dados](docs/diagrams/modeloDeDados.png)
-
----
-
-## 📚 Manuais de Instalação e Uso
-
-- **ManagementService**
-  - [Manual de Instalação](https://github.com/Code-Nine-FTC/ManagementService/blob/main/docs/manual-de-instalacao.md)
-  - [Manual do Usuário](https://github.com/Code-Nine-FTC/ManagementService/blob/main/docs/manual-do-usuario.md)
-- **MobileInterface-2025.2**
-  - [Manual de Instalação](https://github.com/Code-Nine-FTC/MobileInterface-2025.2/blob/main/docs/manual-de-instalacao.md)
-  - [Manual do Usuário](https://github.com/Code-Nine-FTC/MobileInterface-2025.2/blob/main/docs/manual-do-usuario.md)
-- **WebInterface-2025.2**
-  - [Manual de Instalação](https://github.com/Code-Nine-FTC/WebInterface-2025.2/blob/main/docs/manual-de-instalacao.md)
-  - [Manual do Usuário](https://github.com/Code-Nine-FTC/WebInterface-2025.2/blob/main/docs/manual-do-usuario.md)
 
 ---
 
